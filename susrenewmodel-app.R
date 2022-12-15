@@ -1,12 +1,10 @@
 
-
-setwd('~/Downloads')
 library(readxl)
 library(tidyr)
 library(dplyr)
 library(readr)
 
-sus <- read.csv("C:/Users/aimaz/Downloads/globsusmodrenew.csv")
+sus <- read.csv("globsusmodrenew.csv")
 
 install.packages('shiny')
 install.packages('shinydashboard')
